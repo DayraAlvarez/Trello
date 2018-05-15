@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Inicio Trello</title>
   <link rel="icon" href="./img/trello-logo.png"></link>
 <!--Fonts----------------------------------------------------------------------------------->
@@ -14,8 +14,8 @@
 <body>
 <!--Navigator------------------------------------------------------------------------------->
   <nav>
-    <!--Tableros---------------------------------------------------------------------------->
-    <article class="nav-button"><i class="fab fa-trello"></i> Tableros</article>
+    <!--Create board button----------------------------------------------------------------->
+    <div class="nav-button"><i class="fab fa-trello"></i> Tableros</div>
     <!--Input search------------------------------------------------------------------------>
     <input type="text" id="input-search" class="nav-button">
     <i class="fas fa-search" aria-hidden="true" id="search-glass"></i>
@@ -29,7 +29,25 @@
     <article id="user" class="nav-button"><i class="fas fa-user-circle"></i></article>
   </nav>
 <!--Indice---------------------------------------------------------------------------------->
-  <p> Tablero - Reto de codigo <i class="far fa-star">   <i class="fas fa-lock">   </i></i> Privado </p>
+  <div id="index-options">
+    <span class="index"> Tablero <i class="far fa-star"></i></span>
+    <span class="index"> Personal </span>
+    <article class="index">
+      <i class="fas fa-lock"></i>
+      <span class="index"> Privado</span></article>
+    <article class="index">
+      <i class="fas fa-ellipsis-h"></i>
+      <span class="index">Menu</span></article>
+  </div>
+<!--Create board---------------------------------------------------------------------------->
+   <div id="new-task">
+     <p>Añadir una tarea...</p>
+     <!--Save button------------------------------------------------------------------------>
+     <button class="button">Guardar</button>
+   </div>
+<!--Event----------------------------------------------------------------------------------->
+<!--Input----------------------------------------------------------------------------------->
+<input id="new-list" type="text" value="Añadir una lista...">
 <!--End navigator--------------------------------------------------------------------------->
 <script src="js/app.js"></script>
 </body>

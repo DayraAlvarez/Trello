@@ -1,35 +1,39 @@
-/*---Colors:
+/*------------------------------------------------------------------------------
+---------------------------------Colors-----------------------------------------
 Marine #026AA7, Button #3588B9; Button Hover #177bb5; Typo #FFFFFF, Hover #e4f0f6
 Cyan background #1D8DC2
------------------------------------------------
-Turquoise #0096ad; Typo #d2f2f7, Hover #d2f2f7
-Turquoise background:#00AECC ---*/
+
+-------------------------------------------------------------------------------*/
+/*---------------------------------Body----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 body {
-  background-color: #1D8DC2;
+  background-color: #0079BF;
   color:white;
   font-family: helvetica;
   margin:0;
 }
-/*-----------------------------Navegador---------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-------------------------------Navegador-------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 nav {
   background-color: #026AA7;
-  font-size: 13px;
-  padding: 8px;
-  padding-top: 3px;
+  display: block;
+  font-size: 1em;
+  overflow: auto;
+  padding: 0.4%;
 }
     /*--Menu Tableros----------------------------------------------------------*/
     .nav-button {
       background-color: #3588B9;
       border-radius: 3px;
-      box-sizing: content-box;
       color: ##FFFFFF;
       display: inline-block;
-      padding: 6px;
+      padding: 0.4% 0.5%;
     }
 
     i{
-      font-size: 17px;
+      font-size: 1em;
     }
 
     .nav-button:hover {
@@ -42,17 +46,14 @@ nav {
 
     /*--Search-----------------------------------------------------------------*/
     #input-search {
-      display: inline-block;
-      border: 0px solid;
+      border: 0px;
       border-radius: 4px;
-      box-sizing: border-box;
       position: relative;
       left:5px;
     }
 
     #input-search:hover {
       background-color: #177bb5;
-      border: 0px solid;
     }
 
     #search-glass {
@@ -64,7 +65,6 @@ nav {
 
     /*--Logo Trello------------------------------------------------------------*/
     #main-logo {
-      align-items: center;
       color: #5bb0d8;
       font-family: 'Yellowtail', cursive;
       font-size: 25px;
@@ -80,23 +80,67 @@ nav {
     /*--Right menu-------------------------------------------------------------*/
     #right-menu {
       position: relative;
-      left: 67%;
+      top:10%;
+      left: 65%;
     }
 
     /*--User profile-----------------------------------------------------------*/
     #user {
       background-color: #026AA7;
       color: #F8F9F9;
-      font-size: 25px;
+      font-size: 1.8em;
       position: relative;
-      left: 67%;
+      left: 65%;
+    }
+/*-----------------------------------------------------------------------------*/
+/*---------------------------------Index---------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+#index-options {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  padding: 1%;
+  padding-top: 0;
+}
+    /*--Index menu-------------------------------------------------------------*/
+    .index {
+      display: inline-block;
+      padding: 0.4%;
     }
 
-/*--Indice---------------------------------------------------------------------*/
- p {
-   box-sizing: border-box;
-   display: block;
-   font-weight: bold;
-   padding-left: 1.5em;
+    .index-right {
+      display: inline-block;
+      padding: 0.4%;
+    }
 
- }
+     .index:hover {
+      background-color: #026AA7;
+    }
+/*-----------------------------------------------------------------------------*/
+/*------------------------------New Board--------------------------------------*/
+/*--New Board------------------------------------------------------------------*/
+#new-task {
+  background-color:#026AA7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  left: 1%;
+  padding: 0.25% 1%;
+  position: relative;
+  width: 20%;
+}
+
+     /*--Button----------------------------------------------------------------*/
+     .button {
+       background-color: #4CAF50;
+       border: none;
+       border-radius: 4px;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+     }
