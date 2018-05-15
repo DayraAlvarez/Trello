@@ -76,8 +76,27 @@ nav {
     #main-logo:hover{
       color:#d2f2f7;
     }
+
     /*--Right menu-------------------------------------------------------------*/
     #right-menu {
       position: relative;
       left: 1035px;
     }
+
+    /*--User profile-----------------------------------------------------------*/
+    #user {
+      background-color: #026AA7;
+      color: #F8F9F9;
+      font-size: 25px;
+      position: relative;
+      left: 1035px;
+    }
+
+/*--Indice---------------------------------------------------------------------*/
+ p {
+   box-sizing: border-box;
+   display: block;
+   font-weight: bold;
+   padding-left: 1.5em;
+
+ }
