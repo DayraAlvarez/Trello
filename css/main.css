@@ -69,7 +69,7 @@ nav {
       font-family: 'Yellowtail', cursive;
       font-size: 25px;
       position: relative;
-      left: 450px;
+      left: 30%;
       text-decoration: none;
     }
 
@@ -80,7 +80,7 @@ nav {
     /*--Right menu-------------------------------------------------------------*/
     #right-menu {
       position: relative;
-      left: 1035px;
+      left: 67%;
     }
 
     /*--User profile-----------------------------------------------------------*/
@@ -89,7 +89,7 @@ nav {
       color: #F8F9F9;
       font-size: 25px;
       position: relative;
-      left: 1035px;
+      left: 67%;
     }
 
 /*--Indice---------------------------------------------------------------------*/
