@@ -1,0 +1,83 @@
+/*---Colors:
+Marine #026AA7, Button #3588B9; Button Hover #177bb5; Typo #FFFFFF, Hover #e4f0f6
+Cyan background #1D8DC2
+-----------------------------------------------
+Turquoise #0096ad; Typo #d2f2f7, Hover #d2f2f7
+Turquoise background:#00AECC ---*/
+
+body {
+  background-color: #1D8DC2;
+  color:white;
+  font-family: helvetica;
+  margin:0;
+}
+/*-----------------------------Navegador---------------------------------------*/
+nav {
+  background-color: #026AA7;
+  font-size: 13px;
+  padding: 8px;
+  padding-top: 3px;
+}
+    /*--Menu Tableros----------------------------------------------------------*/
+    .nav-button {
+      background-color: #3588B9;
+      border-radius: 3px;
+      box-sizing: content-box;
+      color: ##FFFFFF;
+      display: inline-block;
+      padding: 6px;
+    }
+
+    i{
+      font-size: 17px;
+    }
+
+    .nav-button:hover {
+      background-color: #177bb5;
+    }
+
+    #menu-tableros {
+      text-decoration: none;
+    }
+
+    /*--Search-----------------------------------------------------------------*/
+    #input-search {
+      display: inline-block;
+      border: 0px solid;
+      border-radius: 4px;
+      box-sizing: border-box;
+      position: relative;
+      left:5px;
+    }
+
+    #input-search:hover {
+      background-color: #177bb5;
+      border: 0px solid;
+    }
+
+    #search-glass {
+      display: inline-block;
+      left:-25px; /*--¿Como hacerlo sin usar negativos?------------------------*/
+      position: relative;
+      top:3px;
+    }
+
+    /*--Logo Trello------------------------------------------------------------*/
+    #main-logo {
+      align-items: center;
+      color: #5bb0d8;
+      font-family: 'Yellowtail', cursive;
+      font-size: 25px;
+      position: relative;
+      left: 450px;
+      text-decoration: none;
+    }
+
+    #main-logo:hover{
+      color:#d2f2f7;
+    }
+    /*--Right menu-------------------------------------------------------------*/
+    #right-menu {
+      position: relative;
+      left: 1035px;
+    }
