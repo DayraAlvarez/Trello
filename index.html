@@ -2,53 +2,45 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio Trello</title>
   <link rel="icon" href="./img/trello-logo.png"></link>
-<!--Fonts----------------------------------------------------------------------------------->
+<!--Fonts------------------->
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<!--Link-CSS-------------------------------------------------------------------------------->
+<!--Link-CSS---------------->
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<!--Body------------------------------------------------------------------------------------>
-<body>
-<!--Navigator------------------------------------------------------------------------------->
-  <nav>
-    <!--Create board button----------------------------------------------------------------->
-    <div class="nav-button"><i class="fab fa-trello"></i> Tableros</div>
-    <!--Input search------------------------------------------------------------------------>
-    <input type="text" id="input-search" class="nav-button">
-    <i class="fas fa-search" aria-hidden="true" id="search-glass"></i>
-    <!--Trello-Logo------------------------------------------------------------------------->
+ <body>
+<!--Navigator--------------->
+  <section id="navigator">
+    <!--Board button-------->
+    <button type="button" id="board-nav-button" div class="nav-button"><i class="fab fa-trello"></i> Tableros</button>
+    <!--Search-------------->
+    <input  style="text" id="nav-txt" placeholder="&#9906; Search"/>
+    <!--Trello-Logo--------->
     <a href="#" id="main-logo"><i class="fab fa-trello"></i> Trello</a>
-    <!--Right menu-------------------------------------------------------------------------->
-    <article id="right-menu" class="nav-button"><i class="fas fa-plus"></i></article>
-    <article id="right-menu" class="nav-button"><i class="fas fa-info-circle"></i></article>
-    <article id="right-menu" class="nav-button"><i class="far fa-bell"></i></article>
-    <!--User profile------------------------------------------------------------------------>
-    <article id="user" class="nav-button"><i class="fas fa-user-circle"></i></article>
-  </nav>
-<!--Indice---------------------------------------------------------------------------------->
+    <!--Right menu---------->
+      <button type="button" id="right-menu" class="nav-button"><i class="fas fa-plus"></i></button>
+      <button type="button" id="right-menu" class="nav-button"><i class="fas fa-info-circle"></i></button>
+      <button type="button" id="right-menu" class="nav-button"><i class="far fa-bell"></i></button>
+      <button type="button" id="right-menu" class="nav-button"><i class="fas fa-user-circle"></i></button>
+  </section>
+<!--Indice------------------>
   <div id="index-options">
-    <span class="index"> Tablero <i class="far fa-star"></i></span>
-    <span class="index"> Personal </span>
-    <article class="index">
-      <i class="fas fa-lock"></i>
-      <span class="index"> Privado</span></article>
-    <article class="index">
-      <i class="fas fa-ellipsis-h"></i>
-      <span class="index">Menu</span></article>
+    <p class="index"> Tablero </p>
+    <p class="index"><i class="far fa-star"></i></p>
+    <p class="index"> Personal </p>
+    <p class="index"> Privado <i class="fas fa-lock"></i></p>
+    <p class="index-right"> Menu <i class="fas fa-ellipsis-h"></i></p>
   </div>
-<!--Create board---------------------------------------------------------------------------->
-   <div id="new-task">
-     <p>Añadir una tarea...</p>
-     <!--Save button------------------------------------------------------------------------>
-     <button class="button">Guardar</button>
-   </div>
-<!--Event----------------------------------------------------------------------------------->
-<!--Input----------------------------------------------------------------------------------->
-<input id="new-list" type="text" value="Añadir una lista...">
-<!--End navigator--------------------------------------------------------------------------->
-<script src="js/app.js"></script>
+<!--Container--------------->
+  <section class="center">
+    <div class="container">
+      <input  style="text" id="nav-txt" placeholder="&#9825; Agregue una nueva lista"/>
+      <button type="button" id="new-task-button">Añadir Lista</button>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
 </body>
 </html>

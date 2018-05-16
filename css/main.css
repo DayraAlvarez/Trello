@@ -1,146 +1,115 @@
-/*------------------------------------------------------------------------------
----------------------------------Colors-----------------------------------------
-Marine #026AA7, Button #3588B9; Button Hover #177bb5; Typo #FFFFFF, Hover #e4f0f6
-Cyan background #1D8DC2
-
--------------------------------------------------------------------------------*/
-/*---------------------------------Body----------------------------------------*/
-/*-----------------------------------------------------------------------------*/
-
 body {
   background-color: #0079BF;
   color:white;
   font-family: helvetica;
   margin:0;
+  width: 100%;
 }
-/*-----------------------------------------------------------------------------*/
-/*-------------------------------Navegador-------------------------------------*/
-/*-----------------------------------------------------------------------------*/
-nav {
+
+#navigator {
   background-color: #026AA7;
-  display: block;
-  font-size: 1em;
-  overflow: auto;
-  padding: 0.4%;
+  color: white;
+  font-size: 20px;
+  padding:0.3em;
 }
-    /*--Menu Tableros----------------------------------------------------------*/
-    .nav-button {
-      background-color: #3588B9;
-      border-radius: 3px;
-      color: ##FFFFFF;
-      display: inline-block;
-      padding: 0.4% 0.5%;
-    }
 
-    i{
-      font-size: 1em;
-    }
+.nav-button {
+  background-color: #3588B9;
+  border:none;
+  border-radius: 4px;
+  color:white;
+  cursor:pointer;
+  font-family: helvetica;
+  padding: 8px 10px;
+  position: relative;
+}
 
-    .nav-button:hover {
-      background-color: #177bb5;
-    }
+.nav-button:hover {
+  background-color: #50a8d8;
+}
 
-    #menu-tableros {
-      text-decoration: none;
-    }
+#nav-txt {
+  border-radius:4px;
+  border:none;
+  background-color:#3588B9;
+  color:white;
+  padding: 8px 10px;
+  position: relative;
+  left:0.25%;
+}
 
-    /*--Search-----------------------------------------------------------------*/
-    #input-search {
-      border: 0px;
-      border-radius: 4px;
-      position: relative;
-      left:5px;
-    }
+::placeholder{
+  color:white;
+}
 
-    #input-search:hover {
-      background-color: #177bb5;
-    }
+#main-logo {
+  color: #5bb0d8;
+  font-family: 'Yellowtail', cursive;
+  text-decoration: none;
+  position: relative;
+  left:25%;
+}
 
-    #search-glass {
-      display: inline-block;
-      left:-25px; /*--¿Como hacerlo sin usar negativos?------------------------*/
-      position: relative;
-      top:3px;
-    }
+#main-logo:hover{
+  color:#d2f2f7;
+}
 
-    /*--Logo Trello------------------------------------------------------------*/
-    #main-logo {
-      color: #5bb0d8;
-      font-family: 'Yellowtail', cursive;
-      font-size: 25px;
-      position: relative;
-      left: 30%;
-      text-decoration: none;
-    }
+#right-menu {
+  position: relative;
+  left:60%;
+}
 
-    #main-logo:hover{
-      color:#d2f2f7;
-    }
-
-    /*--Right menu-------------------------------------------------------------*/
-    #right-menu {
-      position: relative;
-      top:10%;
-      left: 65%;
-    }
-
-    /*--User profile-----------------------------------------------------------*/
-    #user {
-      background-color: #026AA7;
-      color: #F8F9F9;
-      font-size: 1.8em;
-      position: relative;
-      left: 65%;
-    }
-/*-----------------------------------------------------------------------------*/
-/*---------------------------------Index---------------------------------------*/
-/*-----------------------------------------------------------------------------*/
 #index-options {
   box-sizing: border-box;
   display: block;
   font-size: 1em;
-  padding: 1%;
-  padding-top: 0;
+  padding: 0% 0.5%;
 }
-    /*--Index menu-------------------------------------------------------------*/
-    .index {
-      display: inline-block;
-      padding: 0.4%;
-    }
 
-    .index-right {
-      display: inline-block;
-      padding: 0.4%;
-    }
+.index {
+  display: inline-block;
+  padding: 0.4%;
+}
 
-     .index:hover {
-      background-color: #026AA7;
-    }
-/*-----------------------------------------------------------------------------*/
-/*------------------------------New Board--------------------------------------*/
-/*--New Board------------------------------------------------------------------*/
-#new-task {
-  background-color:#026AA7;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: block;
-  font-size: 1em;
-  left: 1%;
-  padding: 0.25% 1%;
+.index-right {
+  display: inline-block;
+  padding: 0.4%;
+  left: 70%;
   position: relative;
-  width: 20%;
 }
 
-     /*--Button----------------------------------------------------------------*/
-     .button {
-       background-color: #4CAF50;
-       border: none;
-       border-radius: 4px;
-       color: white;
-       padding: 15px 32px;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 16px;
-       margin: 4px 2px;
-     }
+.index:hover {
+  background-color: #026AA7;
+}
+
+.index-right:hover{
+  background-color: #026AA7;
+}
+
+.container{
+  background-color: #026AA7;
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  left:1%;
+  padding: 1em 1em;
+  position: relative;
+
+}
+
+#new-task{
+  border-radius: 4px;
+  border:none;
+}
+
+#new-task-button{
+  background-color:#4CAF50;
+  border-radius: 4px;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+#new-task-button:hover{
+  background-color: #54c358;
+}
