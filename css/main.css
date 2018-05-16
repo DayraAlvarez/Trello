@@ -38,6 +38,10 @@ body {
   left:0.25%;
 }
 
+#nav-txt:hover {
+  background-color: #50a8d8
+}
+
 ::placeholder{
   color:white;
 }
@@ -108,6 +112,9 @@ body {
   border:none;
   color:white;
   cursor:pointer;
+  font-family: helvetica;
+  padding: 8px 10px;
+  position: relative;
 }
 
 #new-task-button:hover{
