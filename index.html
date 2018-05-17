@@ -17,7 +17,7 @@
     <!--Board button-------->
     <button type="button" id="board-nav-button" div class="nav-button"><i class="fab fa-trello"></i> Tableros</button>
     <!--Search-------------->
-    <input  style="text" placeholder="&#9906; Search"/>
+    <input style="text" id="search-input" placeholder="&#9906; Search"/>
     <!--Trello-Logo--------->
     <a href="#" id="main-logo"><i class="fab fa-trello"></i> Trello</a>
     <!--Right menu---------->
@@ -36,23 +36,24 @@
   </div>
 <!--Container--------------->
 <section id="form-two" class="column">
-  <div id="getting-started-two" class=" ">
+  <div id="getting-started-two" class="first-box ">
     <button id="nav-txt-two">&#9825; Agregue una nueva lista</button>
   </div>
-  <div id="second-value-two" style="visibility:hidden;">
-    <input  style="text" id="second-box-two" placeholder="&#9825; Nombre de lista"/>
-    <button type="button" id="new-task-button-two">Añadir Lista</button>
+  <div id="second-value-two" class="box" style="visibility:hidden;">
+      <a href " ">Ingresa una lista nueva </a>
+    <input  style="text" id="second-box-two"class="creating"/>
+    <button type="button" id="new-task-button-two" class="section-button">Guardar</button>
     <button type="button" id="delete-task-button-two"> X </button>
 </div>
 </section>
-
   <section id="form-one" class="column">
-    <div id="getting-started" class=" ">
+    <div id="getting-started" class="first-box">
       <button id="nav-txt">&#9825; Agregue una nueva lista</button>
     </div>
-    <div id="second-value" style="visibility:hidden;">
-      <input  style="text" id="second-box" placeholder="&#9825; Nombre de lista"/>
-      <button type="button" id="new-task-button">Añadir Lista</button>
+    <div id="second-value" class="box" style="visibility:hidden;">
+        <a href " ">Ingresa una lista nueva </a>
+      <input  style="text" id="second-box" class="creating"/>
+      <button type="button" id="new-task-button" class="section-button">Guardar</button>
       <button type="button" id="delete-task-button"> X </button>
   </div>
   </section>
