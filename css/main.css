@@ -123,8 +123,7 @@ body {
 
 .column {
   width: 25%;
-  height: 600;
-  display: block;
+  height: 600px;
   float: left;
 }
 

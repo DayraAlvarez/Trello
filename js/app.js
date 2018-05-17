@@ -9,13 +9,13 @@ function create (event) {
 
 a.addEventListener('click', create);
 
-var b = document.getElementById('nav-txt-two');
+var saveButton =document.getElementById('new-list-button');
+saveButton.addEventListener('click', createList);
 
-function createNew (event) {
-  var gettingStarted =document.getElementById('getting-started-two');
-  var secondValue =document.getElementById('second-value-two');
-  secondValue.style.visibility='visible';
-  gettingStarted.style.visibility='hidden';
+function createList (){
+  var listTittleValue=document.getElementById('second-box').value;
+  var newListTitle = document.getElementById('new-list-title');
+  newListTitle.value = listTittleValue;
+  document.getElementById('second-box').value = '';
+
 }
-
-b.addEventListener('click', createNew);
