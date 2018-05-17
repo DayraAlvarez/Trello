@@ -144,6 +144,10 @@ body {
   display: none;
 }
 
-#add-task {
+#task {
+  display: none;
+}
+
+#new-task{
   display: none;
 }
