@@ -17,7 +17,7 @@
     <!--Board button-------->
     <button type="button" id="board-nav-button" div class="nav-button"><i class="fab fa-trello"></i> Tableros</button>
     <!--Search-------------->
-    <input  style="text" id="nav-txt" placeholder="&#9906; Search"/>
+    <input  style="text" placeholder="&#9906; Search"/>
     <!--Trello-Logo--------->
     <a href="#" id="main-logo"><i class="fab fa-trello"></i> Trello</a>
     <!--Right menu---------->
@@ -35,12 +35,26 @@
     <p class="index-right"> Menu <i class="fas fa-ellipsis-h"></i></p>
   </div>
 <!--Container--------------->
-  <section class="center">
-    <div class="container">
-      <input  style="text" id="nav-txt" placeholder="&#9825; Agregue una nueva lista"/>
-      <button type="button" id="new-task-button">Añadir Lista</button>
-    <div id="cont"></div>
+<section id="form-two" class="column">
+  <div id="getting-started-two" class=" ">
+    <button id="nav-txt-two">&#9825; Agregue una nueva lista</button>
+  </div>
+  <div id="second-value-two" style="visibility:hidden;">
+    <input  style="text" id="second-box-two" placeholder="&#9825; Nombre de lista"/>
+    <button type="button" id="new-task-button-two">Añadir Lista</button>
+    <button type="button" id="delete-task-button-two"> X </button>
+</div>
+</section>
+
+  <section id="form-one" class="column">
+    <div id="getting-started" class=" ">
+      <button id="nav-txt">&#9825; Agregue una nueva lista</button>
     </div>
+    <div id="second-value" style="visibility:hidden;">
+      <input  style="text" id="second-box" placeholder="&#9825; Nombre de lista"/>
+      <button type="button" id="new-task-button">Añadir Lista</button>
+      <button type="button" id="delete-task-button"> X </button>
+  </div>
   </section>
 	<script src="js/app.js" charset="utf-8"></script>
 </body>
