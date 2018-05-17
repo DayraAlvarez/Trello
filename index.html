@@ -11,7 +11,7 @@
 <!--Link-CSS---------------->
     <link rel="stylesheet" href="./css/main.css">
 </head>
- <body>
+ <header>
 <!--Navigator--------------->
   <section id="navigator">
     <!--Board button-------->
@@ -35,24 +35,25 @@
     <p class="index-right"> Menu <i class="fas fa-ellipsis-h"></i></p>
   </div>
 <!--Container--------------->
-<main id="father">
+<main id="father" class="column">
 <!--Boton agregar lista----->
 <button id="add-list">&#9825; Agregue una nueva lista</button>
 <!--Formulario-------------->
-
-<section id="add-list-form" class="firs-column" >
-  <div id="second-value-two" class="box">
+<section id="add-list-form" class="form">
+  <div>
     <input id="new-list-title" type="text"/>
     <button type="button" id="save-list" class="section-button">Guardar</button>
   </div>
 </section>
-<h1 id="list-title"></h1>
-<div id="create-elements-bank"></div>
-<button type="button" id="task">Agrega nueva tarea</button>
-<form id="new-task">
-  <textarea id="save-new-task-content">nuevo</textarea>
-  <button id="save-new-task-button" type="button">Agregar</button>
-</form>
+<section>
+  <h1 id="list-title"></h1>
+  <div id="new-tasks-listed"></div>
+  <button type="button" id="task">Agrega nueva tarea</button>
+  <form id="new-task">
+    <textarea id="save-new-task-content"></textarea>
+    <button id="save-new-task-button" type="button">Agregar</button>
+  </form>
+</section>
 </main>
 	<script src="js/app.js" charset="utf-8"></script>
 </body>

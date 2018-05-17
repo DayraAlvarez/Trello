@@ -4,6 +4,7 @@
   addList.addEventListener('click', function(){
     addList.style.display="none";
     document.getElementById('add-list-form').style.display="block";
+    document.getElementById('new-list-title').focus();
   });
 
 
@@ -13,7 +14,6 @@
     var listTitleValue=document.getElementById('new-list-title').value;
     document.getElementById('list-title').textContent=listTitleValue;
     document.getElementById('task').style.display="block";
-
   });
 
 
@@ -21,6 +21,7 @@
     addTask.addEventListener('click', function(){
     document.getElementById('new-task').style.display="block";
     addTask.style.display="none";
+    document.getElementById('save-new-task-content').focus();
   });
 
   var saveTask= document.getElementById('save-new-task-button');
@@ -28,7 +29,9 @@
     var createNewTask=document.getElementById('save-new-task-content').value;
     var newTask=document.createElement('p');
     newTask.textContent=createNewTask;
-     document.getElementById('father').appendChild(newTask);
+    document.getElementById('new-tasks-listed').appendChild(newTask);
+    document.getElementById('save-new-task-content').value = '';
+    document.getElementById('save-new-task-content').focus();
       //obtener el valor del input
       //CREAR UN NUEVO P CON ESE CONTENIDO
       //inserarlo

@@ -1,9 +1,10 @@
+
 body {
-  background-color: #0079BF;
+  background: linear-gradient(to bottom,#0079bf 0%, #99ffcc 115%);
   color:white;
   font-family: helvetica;
   margin:0;
-  width: 100%;
+  height: 100%;
 }
 
 #navigator {
@@ -90,54 +91,26 @@ body {
   background-color: #026AA7;
 }
 
-.first-box{
-  background-color: #026AA7;
-  display: inline-block;
-  color: white;
-  border-radius: 4px;
-  left:1%;
-  padding: 1em 1em;
-  position: relative;
-
+.column {
+  display: block;
+  float: left;
+  margin: 1em;
+  padding: 0 4px;
 }
 
-#new-task{
-  border-radius: 4px;
-  border:none;
-}
-
-.section-button{
-  background-color:#4CAF50;
-  border-radius: 4px;
+#add-list {
+  background-color:#3588B9;
+  border-radius:4px;
   border:none;
   color:white;
-  cursor:pointer;
-  font-family: helvetica;
+  opacity: 0.8;
   padding: 8px 10px;
-  position: relative;
 }
 
-.section-button:hover{
-  background-color: #54c358;
-}
-
-.column {
-  width: 25%;
-  height: 600px;
-  float: left;
-}
-
-.box{
-  display: block;
-  position: relative;
-  background-color:#bcd6dd;
+.form {
+  background-color: #3588B9;
+  padding: 10px 10px;
   border-radius: 4px;
-  padding:5% 5%;
-  margin:6px;
-}
-
-.creating {
-  width: 100%
 }
 
 #add-list-form {
