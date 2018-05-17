@@ -12,28 +12,5 @@
     document.getElementById('add-list-form').style.display="none";
     var listTitleValue=document.getElementById('new-list-title').value;
     document.getElementById('list-title').textContent=listTitleValue;
+    document.getElementById('add-task').style.display="block";
   });
-
-
-
-
-
-  function create (event) {
-    var gettingStarted =document.getElementById('getting-started');
-    var secondValue =document.getElementById('second-value');
-    secondValue.style.visibility='visible';
-    gettingStarted.style.visibility='hidden';
-  }
-
-  a.addEventListener('click', create);
-
-  var saveButton =document.getElementById('new-list-button');
-  saveButton.addEventListener('click', createList);
-
-  function createList (){
-    var listTittleValue=document.getElementById('second-box').value;
-    var newListTitle = document.getElementById('new-list-title');
-    newListTitle.value = listTitleValue;
-    document.getElementById('second-box').value = '';
-
-  }
