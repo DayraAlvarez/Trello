@@ -139,3 +139,7 @@ body {
 .creating {
   width: 100%
 }
+
+#add-list-form {
+  display: none;
+}

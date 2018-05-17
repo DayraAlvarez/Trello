@@ -15,7 +15,7 @@
 <!--Navigator--------------->
   <section id="navigator">
     <!--Board button-------->
-    <button type="button" id="board-nav-button" div class="nav-button"><i class="fab fa-trello"></i> Tableros</button>
+    <button type="button" id="board-nav-button" div class="nav-button input-button"><i class="fab fa-trello"></i> Tableros</button>
     <!--Search-------------->
     <input style="text" id="search-input" placeholder="&#9906; Search"/>
     <!--Trello-Logo--------->
@@ -35,18 +35,17 @@
     <p class="index-right"> Menu <i class="fas fa-ellipsis-h"></i></p>
   </div>
 <!--Container--------------->
-<section id="form-two" class="column" >
+<button id="add-list">&#9825; Agregue una nueva lista</button>
+<section id="add-list-form" class="firs-column" >
   <div id="second-value-two" class="box">
-    <input id="new-list-title" type="text" value="titulo"/>
-      <a href " ">Ingresa una lista nueva </a>
-    <input  style="text" id="second-box-two"class="creating"/>
-    <button type="button" id="new-list-button-two" class="section-button">Guardar</button>
-    <button type="button" id="delete-task-button-two"> X </button>
-</div>
+    <input id="new-list-title" type="text" class="input-button" value="titulo"/>
+    <button type="button" id="save-list" class="section-button">Guardar</button>
+  </div>
 </section>
+<h1 id="list-title"></h1>
   <section id="form-one" class="column" >
     <div id="getting-started" class="first-box">
-      <button id="nav-txt">&#9825; Agregue una nueva lista</button>
+
     </div>
     <div id="second-value" class="box" style="visibility:hidden;">
       <input  style="text" id="second-box" class="creating"/>
