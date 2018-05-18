@@ -1,14 +1,10 @@
-// Añadir una nueva lista
-  var addList = document.getElementById('add-list');
-  addList.addEventListener('click', function (){
-    addList.style.display="none";
-    document.getElementById('add-list-form').style.display="block";
-    document.getElementById('new-list-title').focus();
+  var twikleTwinkleLittleStar=document.getElementById('st');
+   twikleTwinkleLittleStar.addEventListener('click', function(){
+   twikleTwinkleLittleStar.classList.toggle('shine');
   });
 
 // boton guardar del formulario
   var saveList =document.getElementById('save-list');
-
   saveList.addEventListener('click', function(){
     document.getElementById('add-list-form').style.display="none";
     var listTitleValue=document.getElementById('new-list-title').value;
