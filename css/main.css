@@ -98,7 +98,7 @@ body {
   background-color: #026AA7;
 }
 /*Formulario*/
-.column {
+#father {
   display: block;
   float: left;
   margin: 1em;
@@ -128,12 +128,22 @@ body {
   padding: 1em;
 }
 
+.new-task-button {
+  background-color: #3588B9;
+  border-color: white;
+  border-width: 5px;
+  border-radius:4px;
+  opacity: 0.8;
+  padding: 1em;
+  height: 30px
+}
+
 .form-button{
   background-color: #50a8d8;
   border:none;
   border-radius: 4px;
   color:white;
-  padding:0.8em;
+  padding:10px;
 }
 
 .form-button:hover{
@@ -145,7 +155,21 @@ body {
   border:none;
   border-radius: 4px;
   color: #026AA7;
-  font-family: 'Handlee', cursive;
+  float: left;
+}
+
+#save-new-task-button{
+  float: left;
+}
+
+#new-list-title{
+  border-radius:4px;
+  border:none;
+  background-color:#3588B9;
+  color:white;
+  padding: 8px 10px;
+  position: relative;
+  left:0.25%;
 }
 
 /*Input del formulario*/

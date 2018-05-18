@@ -1,4 +1,3 @@
-
 // Añadir una nueva lista
   var addList = document.getElementById('add-list');
   addList.addEventListener('click', function (){
